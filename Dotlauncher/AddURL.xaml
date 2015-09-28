@@ -1,0 +1,13 @@
+﻿<Window x:Class="Dotlauncher.AddURL"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddURL" 
+        Height="130" 
+        Width="250" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Name="txtURL" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap"  Width="200" VerticalAlignment="Top"  Margin="10,10,10,80"/>
+        <Button Name="cmdOkay" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="30,60,0,0" IsDefault="True" Click="cmdOkay_Click"/>
+        <Button Name="cmdCancel" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="130,60,0,0" IsCancel="True" Click="cmdCancel_Click"/>
+    </Grid>
+</Window>
